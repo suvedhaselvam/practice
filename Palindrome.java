@@ -25,11 +25,11 @@ class Ideone
 	//System.out.print(sum);
 	if(c==sum)
 	{
-		System.out.print("Palindrome");
+		System.out.print("Yes);
 	}
 	else
 	{
-		System.out.print("Not Palindrome");
+		System.out.print("No");
 	}
 }
 }
