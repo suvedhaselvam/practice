@@ -12,7 +12,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		int n=s.nextInt();
 		int c=n;
-		int count=0;
+		//int count=0;
 		int sum=0;
 		int rem=0;
 		while(n>0)
@@ -20,9 +20,9 @@ class Ideone
 		  rem=n%10;
 		  sum=sum*10+rem;
 		  n=n/10;
-          count++;
+        //  count++;
 	}
-	System.out.print(sum);
+	//System.out.print(sum);
 	if(c==sum)
 	{
 		System.out.print("Palindrome");
